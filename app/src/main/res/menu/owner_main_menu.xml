@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ownerMainBottomBarItemNews"
+        android:icon="@drawable/ic_home_white_36dp"
+        android:title="Home" />
+    <item
+        android:id="@+id/ownerMainBottomBarItemAll"
+        android:icon="@drawable/ic_reorder_white_36dp"
+        android:title="Restaurants" />
+</menu>

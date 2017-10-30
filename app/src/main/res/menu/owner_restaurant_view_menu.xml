@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/ownerMenu"
+        android:icon="@drawable/ic_home_white_36dp"
+        android:title="Menu" />
+    <item
+    android:id="@+id/reservationMenu"
+    android:icon="@drawable/ic_reorder_white_36dp"
+    android:title="Reservations" />
+    <item
+        android:id="@+id/newDishes"
+        android:icon="@drawable/ic_local_activity_white_36dp"
+        android:title="New Dishes" />
+</menu>

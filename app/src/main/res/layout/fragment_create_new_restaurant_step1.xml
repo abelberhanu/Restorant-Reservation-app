@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/fragmentStep1"
+    tools:context="fragment.CreateNewRestaurantStep1">
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"/>
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:id="@+id/coverPictureRestaurant"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/select_picture"/>
+            </FrameLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"></LinearLayout>
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/restaurantName"
+                            android:inputType="text"
+                            android:layout_gravity="center"
+                            android:hint="Name"
+                            android:gravity="center"
+                            android:nextFocusForward="@+id/addressRestaurant"/>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/addressRestaurant"
+                            android:layout_gravity="center_horizontal"
+                            android:inputType="text"
+                            android:hint="Address"
+                            android:gravity="center"
+                            android:nextFocusForward="@+id/phoneRestaurant"/>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="phone"
+                            android:ems="10"
+                            android:id="@+id/phoneRestaurant"
+                            android:hint="Phone Number"
+                            android:gravity="center"
+                            android:nextFocusForward="@+id/websiteRestaurant"/>
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/websiteRestaurant"
+                            android:inputType="text"
+                            android:layout_gravity="center_horizontal"
+                            android:hint="Website"
+                            android:gravity="center"
+                            android:nextFocusForward="@+id/descriptionRestaurant"/>
+
+                    </FrameLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/descriptionRestaurant"
+                            android:layout_gravity="center_horizontal"
+                            android:inputType="text"
+                            android:hint="Description"
+                            android:gravity="center" />
+
+                    </FrameLayout>
+                </LinearLayout>
+            </ScrollView>
+</LinearLayout>

@@ -1,0 +1,29 @@
+{
+  "name": "MixTo",
+  "lon": 49.5685,
+  "lat": 52.355,
+  "address": "Via Mazzini, 27 , Torino, postal code",
+  "type": "Multiple",
+  "description": "coffee, drinks, pizzas, sandwiches, salad",
+  "website": "www.google.it",
+  "phone_number": "0102030405",
+  "rating" : 4.5,
+  "menu": {
+    "starters": ["Cesar Salad:::8.50", "Mozzarella:::9.00"],
+    "main_course": {
+      "pizzas": ["margueritta:::11.50", "bresaola:::13.20"],
+      "pastas": [],
+      "meat": ["steak:::22.00"],
+      "seafood": [],
+      "soups": []
+    },
+    "deserts": ["panacotta:::7.00"],
+    "drinks": {
+      "sodas": ["coke","fanta"],
+      "juices": ["fresh orange juice"],
+      "wines_beers": ["1664"],
+      "water": ["naturale"],
+      "hot": ["coffee"]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#404743</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_color_accent">#ffffff</color>
+    <color name="news_color_accent">#6671777d</color>
+    <color name="favorite_color_accent">#FF4081</color>
+    <color name="all_color_accent">#d60e1523</color>
+    <color name="color_background_negative_btn_whishlist">#da5b3436</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="profile_color_accent">#e6e1cb02</color>
+    <color name="nearby_color_accent">#e4ff4401</color>
+    <color name="settings_color_accent">#e4080808</color>
+    <color name="restaurant_background">#07000f2e</color>
+    <color name="color_logout">#e3b30b08</color>
+    <color name="color_background_guest">#8b7c7474</color>
+    <color name="color_background_custom_btn">#f3156108</color>
+    <color name="black">#a81a3550</color>
+    <color name="other">#7a0080ff</color>
+    <color name="noWhite">#c8ddf2</color>
+</resources>
